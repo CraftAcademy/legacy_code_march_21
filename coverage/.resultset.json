@@ -1,19 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/channels/application_cable/channel.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/channels/application_cable/connection.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/controllers/api/analyses_controller.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/api/analyses_controller.rb": [
         null,
         null,
         0,
@@ -63,30 +63,30 @@
         0,
         0
       ],
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/controllers/application_controller.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/application_controller.rb": [
         0,
         0
       ],
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/jobs/application_job.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/jobs/application_job.rb": [
         0,
         0
       ],
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/mailers/application_mailer.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/models/analysis.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/analysis.rb": [
         0,
         0
       ],
-      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/models/application_record.rb": [
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/application_record.rb": [
         0,
         0,
         0
       ]
     },
-    "timestamp": 1619035178
+    "timestamp": 1619035636
   }
 }
