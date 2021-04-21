@@ -1,0 +1,92 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/api/analyses_controller.rb": [
+        null,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/analysis.rb": [
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1619035636
+  }
+}
