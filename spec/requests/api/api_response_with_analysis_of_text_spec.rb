@@ -72,5 +72,27 @@ RSpec.describe 'POST /api/analyses', type: :request do
       end
 
     end
+
+    describe 'checks if category is missing' do
+      
+      before do
+        post '/api/analyses', params: {
+          analysis: {
+            resource: 'hey boo', 
+            category: ''
+          }
+        }
+      end
+
+      it 'is expected to resonse with 422' do
+        expect(response).to have_http_status 422
+      end
+
+      it 'returns error message' do
+        expected_output = "Category can't be blank"
+        expect(JSON.parse(response.body)[0]).to eq expected_output
+      end
+
+    end
   end
 end 
