@@ -4,11 +4,11 @@ class Api::AnalysesController < ApplicationController
   before_action :analyze_resource, only: [:create]
 
   def create
-    analysis = Analysis.create(analysis_params
-                                   .merge!(results: @results,
-                                           request_ip: request.remote_ip))
+    analysis = Analysis
+      .create(analysis_params
+      .merge!(results: @results, request_ip: request.remote_ip))
     if analysis.persisted?
-      render json: analysis
+      render json: analysis, status: 201
     else
       render json: analysis.errors.full_messages, status: 422
     end
@@ -18,6 +18,7 @@ class Api::AnalysesController < ApplicationController
 
   def analysis_params
     params.require(:analysis).permit!
+    
   end
 
   def analyze_resource
