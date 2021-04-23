@@ -1,0 +1,8 @@
+[
+  {
+    "text": "Fuck you boo",
+    "external_id": null,
+    "error": false,
+    "classifications": { "tag_name": "profanity", "tag_id": 57725627, "confidence": 0.96 }      
+  }
+]

@@ -1,94 +1,94 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/api/analyses_controller.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/controllers/api/analyses_controller.rb": [
         null,
         null,
         1,
         1,
         null,
         1,
-        1,
+        11,
         null,
         null,
-        1,
-        1,
+        11,
+        7,
         null,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
         4,
         null,
         null,
         null,
         1,
+        null,
         1,
+        44,
+        null,
+        null,
+        null,
+        1,
+        11,
+        11,
+        0,
+        11,
+        9,
+        null,
+        null,
+        null,
+        1,
+        9,
+        9,
+        9,
+        null,
+        null,
         1,
         0,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        0,
         null,
         null,
         null,
         null,
         null,
         1,
-        2,
+        22,
         null,
         null
       ],
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/application_controller.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/controllers/application_controller.rb": [
         1,
         null
       ],
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/analysis.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/models/analysis.rb": [
         1,
         1,
         null
       ],
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/application_record.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/channel.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/connection.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/jobs/application_job.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/jobs/application_job.rb": [
         0,
         0
       ],
-      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/mailers/application_mailer.rb": [
+      "/Users/christer/craftacadamy_demos/legacy_code_march_21/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1619191371
+    "timestamp": 1619213650
   }
 }
