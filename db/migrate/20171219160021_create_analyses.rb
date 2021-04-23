@@ -6,7 +6,6 @@ class CreateAnalyses < ActiveRecord::Migration[5.1]
       t.text :resource
       t.hstore :results
       t.string :request_ip
-
       t.timestamps
     end
   end

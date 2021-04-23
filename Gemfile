@@ -16,6 +16,7 @@ gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dab
 group :development, :test do
   gem 'rspec-rails'  
   gem 'pry-rails'
+  gem 'webmock'
 end
 
 group :development do
