@@ -1,0 +1,89 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok",
+    "req_id": "b45ecf08cba44a298bccf096d5958f91"
+  },
+  "outputs": [
+    {
+      "id": "7d353a16b103478095619ba8e084b11a",
+      "status": { "code": 10000, "description": "Ok" },
+      "created_at": "2021-04-22T14:03:09.988452998Z",
+      "model": {
+        "id": "d16f390eb32cad478c7ae150069bd2c6",
+        "name": "moderation",
+        "created_at": "2017-05-16T19:20:38.733764Z",
+        "app_id": "main",
+        "output_info": {
+          "output_config": {
+            "concepts_mutually_exclusive": false,
+            "closed_environment": false,
+            "max_concepts": 0,
+            "min_value": 0
+          },
+          "message": "Show output_info with: GET /models/{model_id}/output_info",
+          "type": "concept",
+          "type_ext": "concept",
+          "fields_map": { "concepts": "softmax" }
+        },
+        "model_version": {
+          "id": "aa8be956dbaa4b7a858826a84253cab9",
+          "created_at": "2017-10-31T16:30:31.226185Z",
+          "status": {
+            "code": 21100,
+            "description": "Model is trained and ready"
+          },
+          "app_id": "main",
+          "user_id": "clarifai"
+        },
+        "display_name": "Moderation",
+        "user_id": "clarifai",
+        "input_info": { "fields_map": { "image": "images" } },
+        "train_info": {},
+        "model_type_id": "visual-classifier"
+      },
+      "input": {
+        "id": "62d441a0e3a84b1e9d43c0275e78b05f",
+        "data": {
+          "image": {
+            "url": "https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2020/06/Types-of-Palm-Trees.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_QD1zClSd",
+            "name": "safe",
+            "value": 0.99679315,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_RtXh5qkR",
+            "name": "suggestive",
+            "value": 0.0022123302,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8QQwMjQR",
+            "name": "drug",
+            "value": 0.00091581425,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V76bvrtj",
+            "name": "explicit",
+            "value": 7.84116e-5,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kBBGf7r8",
+            "name": "gore",
+            "value": 2.5105382e-7,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

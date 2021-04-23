@@ -11,9 +11,12 @@ gem 'rack-cors', require: 'rack/cors'
 gem 'clarifai-rails', '~> 0.2.1'
 gem 'rest-client'
 gem 'monkeylearn'
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 group :development, :test do
-  gem 'pry-byebug'
+  gem 'rspec-rails'  
+  gem 'pry-rails'
+  gem 'webmock'
 end
 
 group :development do
