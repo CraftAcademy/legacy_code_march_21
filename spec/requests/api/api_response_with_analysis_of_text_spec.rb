@@ -22,8 +22,11 @@ RSpec.describe 'POST /api/analyses', type: :request do
       end
     
       it 'is expected to return clean text analysis' do
-        expected_output = "[{\"tag_name\"=>\"clean\", \"tag_id\"=>57725628, \"confidence\"=>0.968}]"
-        expect(JSON.parse(response.body)['results']['classifications']).to eq expected_output
+        expect(eval(JSON.parse(response.body)['results']['classifications'])[0]["tag_name"]).to eq "clean"
+      end
+
+      it 'is expected to return confidence % of text analysis' do
+        expect(eval(JSON.parse(response.body)['results']['classifications'])[0]["confidence"]).to eq 0.968
       end
     end
   
@@ -43,8 +46,11 @@ RSpec.describe 'POST /api/analyses', type: :request do
       end
     
       it 'is expected to return profanity text analysis' do
-        expected_output = "[{\"tag_name\"=>\"profanity\", \"tag_id\"=>57725627, \"confidence\"=>0.96}]"
-        expect(JSON.parse(response.body)['results']['classifications']).to eq expected_output
+        expect(eval(JSON.parse(response.body)['results']['classifications'])[0]["tag_name"]).to eq "profanity"
+      end
+
+      it 'is expected to return confidence % of text analysis' do
+        expect(eval(JSON.parse(response.body)['results']['classifications'])[0]["confidence"]).to eq 0.96
       end
     end
   end
