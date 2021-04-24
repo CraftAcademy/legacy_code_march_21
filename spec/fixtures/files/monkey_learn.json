@@ -1,0 +1,14 @@
+[
+  {
+      "text": "Hello my friend",
+      "external_id": null,
+      "error": false,
+      "classifications": [
+          {
+              "tag_name": "clean",
+              "tag_id": 57725628,
+              "confidence": 0.962
+          }
+      ]
+  }
+]

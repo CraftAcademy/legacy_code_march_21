@@ -16,7 +16,7 @@ class Api::AnalysesController < ApplicationController
 
   private
 
-  def analysis_params
+  def analysis_params 
     params.require(:analysis).permit!
   end
 
