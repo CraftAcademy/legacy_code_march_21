@@ -1,0 +1,15 @@
+{
+  "id": 73,
+  "category": "image",
+  "resource": "https://jagareforbundet.se/contentassetsaae640fff6af4360a9a1e9e9de8f0bc1/9414399-brunbjorn_red.jpg",
+  "results": {
+      "safe": "0.9999944",
+      "suggestive": "3.7735867e-06",
+      "explicit": "1.3678344e-06",
+      "drug": "4.0008655e-07",
+      "gore": "4.7927124e-08"
+  },
+  "request_ip": "81.227.192.244",
+  "created_at": "2021-04-23T21:48:10.094Z",
+  "updated_at": "2021-04-23T21:48:10.094Z"
+}

@@ -1,4 +1,3 @@
-require 'rails_helper'
 RSpec.describe 'POST /api/analyses', type: :request do
   let(:monkeylearn_responce) do
       file_fixture('clean_text.json').read
