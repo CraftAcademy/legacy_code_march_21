@@ -4,20 +4,21 @@ class Api::AnalysesController < ApplicationController
   before_action :analyze_resource, only: [:create]
 
   def create
-    analysis = Analysis.create(analysis_params
-                                   .merge!(results: @results,
-                                           request_ip: request.remote_ip))
-    if analysis.persisted?
-      render json: analysis
-    else
-      render json: analysis.errors.full_messages, status: 422
+    analysis = Analysis
+      .create(analysis_params
+      .merge!(results: @results, request_ip: request.remote_ip))
+      if analysis.persisted?
+        render json: analysis
+      else
+        render json: analysis.errors.full_messages, status: 422
+      end
     end
-  end
-
-  private
-
-  def analysis_params
+    
+    private
+    
+    def analysis_params
     params.require(:analysis).permit!
+    
   end
 
   def analyze_resource
@@ -28,13 +29,13 @@ class Api::AnalysesController < ApplicationController
       @results = text_analysis(resource)
     end
   end
-
+  
   def text_analysis(text)
     model_id = 'cl_KFXhoTdt' # Profanity & Abuse Detection
     response = Monkeylearn.classifiers.classify(model_id, [text])
     response.body[0]
   end
-
+  
   def image_analysis(url)
     Clarifai::Rails::Detector
       .new(url)

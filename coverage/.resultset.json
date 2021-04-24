@@ -1,0 +1,94 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/api/analyses_controller.rb": [
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        3,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/analysis.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/svampmeister/Documents/CraftAcadamy/week_4/legacy_code_march_21/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1619275586
+  }
+}
